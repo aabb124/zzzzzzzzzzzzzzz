@@ -33,7 +33,7 @@ SKIP_COMMAND = get_command("SKIP_COMMAND")
     & ~filters.edited
     & ~BANNED_USERS
 )
-@app.on_message(filters.command(["التالي","تخطي","اللي بعدو"],"")
+@app.on_message(filters.command(["عوهدض","تخطي","نزظخح"],"")
     & ~filters.edited
     & ~BANNED_USERS
 )
